@@ -1,0 +1,68 @@
+html { 
+    font-size: 15pt;
+    margin-left: 50px;
+    color: rgb(87, 77, 83);
+    font-family: 'Crimson Text', serif;
+}
+h1 {
+    color: rgb(200, 24, 24) ;
+    text-align: center;
+    background-color: rgb(248, 147, 147);
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 30px;
+    width: 450px;
+    padding: 100px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 70px;
+    padding-left: 70px;
+}
+
+h2 {
+    color:rgb(220, 82, 8);
+    text-align: center;
+    font-size: 15pt;
+    background-color: rgb(244, 205, 171);
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 30px;
+    width: 450px;
+    padding: 100px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 70px;
+    padding-left: 70px;
+}
+h3 {
+    color:rgb(20, 113, 55);
+    margin-bottom: 10px;
+}
+ h4{
+    font-size: 12pt;
+    margin-bottom: 10px;
+    font-weight: 100;
+    color:rgb(98, 166, 250) 
+ }
+
+section {
+    background-color: rgb(252, 251, 196);
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 30px;
+    width: 450px;
+    padding: 100px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    padding-right: 70px;
+    padding-left: 70px;
+}
+
+p {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+dfn {
+    letter-spacing: -.02em;
+}
