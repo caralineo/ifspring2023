@@ -10,61 +10,107 @@ html {
 body {
     margin-left: 5%;
     margin-right: 5%;
+    font-size: 20px;
+    line-height: 2;
 }
 
 header {
     color: rgb(41, 41, 41);
     background-color: rgba(234,244,244, .95);
     padding-bottom: 2px;
+    padding-left: 20px;
+    text-align: center;
 }
 
-main {
-    column-gap: 10%;
-    flex-direction: row;
-}
 
 h1 {
     font-size: 40px;
-    margin-bottom: 16px;
+    margin-bottom: 10px;
     padding-top: 25px;
 }
 
 h2 {
     font-size: 25px;
-    line-height: 1;
     font-weight: lighter;
-    margin-bottom: 30px;
+    margin-top: 10px;
+    line-height: 2;
+}
+.column_left{
+    width: 25%;
+
+}
+.column_center{
+    width: 25%;
+
+}
+.column_right{
+    width: 50%;
+
 }
 
+.ingred {
+    line-height: 2.185;
+}
 
-section:nth-of-type(1) {
+.overview {
     width:fit-content;
     background-color: rgba(234,244,244, .95);
     color: rgb(41, 41, 41);
-    column-gap:5%;
+    padding-left: 20px;
+    padding-right: 50px;
+    padding-bottom: 3px;
+    margin-top: 30px;
+
+}
+
+.instructions {
+    width: auto;
+    background-color: rgba(234,244,244, .95);
+    color: rgb(41, 41, 41);
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+}
+
+.ingredients {
+    width:fit-content;
+    background-color: rgba(234,244,244, .95);
+    color: rgb(41, 41, 41);
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 30px;
+    padding-bottom: 14px;
+}
+
+.howtostore {
+    width:fit-content;
+    background-color: rgba(234,244,244, .95);
+    color: rgb(41, 41, 41);
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 30px;
+    padding-bottom: 14px;
+
+}
+
+.muffins {
+    border: 15px solid  rgba(234,244,244, .95);
+    float:right; 
+    margin-top: 30px;
+}
+
+.column_left2 {
+    width: 50%;
+}
+
+.column_right2 {
+    width: 50%
 }
 
 
-.column {
-    float: left;
-    width: fit-content;
+.row{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;    
+    margin-bottom: 30px;
 }
-
-.row:after {
-    content: "";
-    display: table;
-    clear: both;
-    width: 960px;
-    margin: auto;
-    font-size: 14px;
-    }
-
-.left {
-        width: 20%;
-        }
-    
-.right {
-        width: 30%;
-    }
-
-
