@@ -1,0 +1,70 @@
+html {
+    background-image:url(https://cdn.shopify.com/s/files/1/0285/1316/products/w0275_1s_Velvet-Bananas-Removable-Peel-and-Stick-Wallpaper_Repeating-Pattern-Sample-2.jpg?v=1604091425); 
+    background-repeat: no-repeat; 
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 0;
+    font-family: "futura-pt", sans-serif;
+}
+
+body {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+header {
+    color: rgb(41, 41, 41);
+    background-color: rgba(234,244,244, .95);
+    padding-bottom: 2px;
+}
+
+main {
+    column-gap: 10%;
+    flex-direction: row;
+}
+
+h1 {
+    font-size: 40px;
+    margin-bottom: 16px;
+    padding-top: 25px;
+}
+
+h2 {
+    font-size: 25px;
+    line-height: 1;
+    font-weight: lighter;
+    margin-bottom: 30px;
+}
+
+
+section:nth-of-type(1) {
+    width:fit-content;
+    background-color: rgba(234,244,244, .95);
+    color: rgb(41, 41, 41);
+    column-gap:5%;
+}
+
+
+.column {
+    float: left;
+    width: fit-content;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+    width: 960px;
+    margin: auto;
+    font-size: 14px;
+    }
+
+.left {
+        width: 20%;
+        }
+    
+.right {
+        width: 30%;
+    }
+
+
