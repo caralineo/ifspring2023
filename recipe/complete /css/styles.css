@@ -1,0 +1,207 @@
+html {
+    background-image:url(https://cdn.shopify.com/s/files/1/0285/1316/products/w0275_1s_Velvet-Bananas-Removable-Peel-and-Stick-Wallpaper_Repeating-Pattern-Sample-2.jpg?v=1604091425); 
+    background-repeat: no-repeat; 
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 0;
+    font-family: "futura-pt", sans-serif;
+}
+
+body {
+    margin-left: 5%;
+    margin-right: 5%;
+    font-size: 20px;
+    line-height: 2;
+}
+
+header {
+    color: rgb(41, 41, 41);
+    background-color: rgba(234,244,244, .95);
+    padding-bottom: 2px;
+    padding-left: 20px;
+    text-align: center;
+    margin-top: 30px;
+
+}
+
+
+h1 {
+    font-size: 50px;
+    padding-top: 25px;
+}
+
+h2 {
+    font-size: 25px;
+    font-weight: lighter;
+    line-height: 2;
+    padding-top: 20px;
+}
+
+h3 {
+    font-size: 25px;
+    font-weight: lighter;
+    margin-bottom: 40px;
+    margin-top: -30px;
+}
+
+.column_left{
+    margin: 10px
+
+}
+.column_center{
+    margin: 10px;
+
+}
+.column_right{
+    margin:10px;
+
+}
+
+.ingred {
+    line-height: 2.48;
+}
+
+.overview {
+    width:fit-content;
+    background-color: rgba(234,244,244, .95);
+    color: rgb(41, 41, 41);
+    padding-left: 20px;
+    padding-right: 90px;
+    margin-top: 30px;
+
+}
+.over {
+    line-height: 2.18;
+}
+
+.instructions {
+    width: fit-content;
+    background-color: rgba(234,244,244, .95);
+    color: rgb(41, 41, 41);
+    padding-left: 20px;
+    padding-right: 60px;
+    padding-bottom: 10px;
+}
+
+.ingredients {
+    width:fit-content;
+    background-color: rgba(234,244,244, .95);
+    color: rgb(41, 41, 41);
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 30px;
+}
+
+.howtostore {
+    width:fit-content;
+    background-color: rgba(234,244,244, .95);
+    background-size: 40px;
+    color: rgb(41, 41, 41);
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 14px;
+
+}
+
+.muffins {
+    border: 15px solid  rgba(234,244,244, .95);
+    box-sizing: border-box;
+    float:right; 
+    margin-top: 40px;
+    width: 605px;
+}
+
+.column_left2 {
+    margin:10px;
+    width: 50%;
+}
+
+.column_right2 {
+    margin:10px;
+    width:50%;
+}
+
+
+.row{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;    
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.store {
+    line-height: 2.3;
+}
+
+.enjoy {
+    background-color: rgba(234,244,244, .95);
+    color: rgb(41, 41, 41);
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 14px;
+    padding-top: 14px;
+    font-weight: bold;
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 30px;
+    margin: 10px;
+}
+
+@media (max-width: 1000px) {
+    .row {
+        flex-direction: column;
+    }
+  
+    .overview {
+        width: auto;
+
+    }
+
+    .ingredients {
+        width: auto;
+    }
+
+    .instructions {
+        width: auto;
+    }
+
+    .howtostore {
+        width: auto;
+    }
+
+    .column_left {
+        order: 1;
+
+    }
+
+    .muffins {
+        float: none;
+        width: 100%;
+        
+    }
+  
+    .column_center {
+        order: 2;
+    
+    }
+  
+    .column_right {
+        order: 3;
+       
+    }
+
+    .column_left2 {
+        width: auto;
+    }
+    
+    .column_right2 {
+        width: auto;
+    }
+
+    .header {
+        width: auto;
+    }
+
+  
+}
