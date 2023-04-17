@@ -1,0 +1,136 @@
+html {
+    background-color: rgb(239, 227, 220);
+}
+    
+    
+body {
+    margin: 0;
+    font-family: "baskerville-urw", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+header {
+    background-color: rgb(48, 5, 5) ;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-size: cover;
+    background-position: center;
+    color: rgb(239, 227, 220);
+}
+
+
+h1 {
+    font-size: 50px;
+    line-height: 1;
+    margin-bottom: 16px;
+    margin: 0;
+    font-family: "adorn-engraved", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+section {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+
+section:first-of-type p {
+    line-height: 25px;
+    margin-bottom: 17px;
+
+}
+
+.main-column {
+    margin: auto;
+    font-size: 18px;
+    width: 960px;
+}
+
+
+.career {
+    width: 400px;
+    float: right;
+    padding-left: 40px;
+    padding-bottom: 20px;
+}
+
+footer {
+    background-color: rgb(48, 5, 5) ;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-size: cover;
+    background-position: center;
+    color: #F6EDE7;
+    font-family: "baskerville-urw", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+a#btn_return {
+  display: inline-block;
+  position: relative;
+  margin:auto;
+  padding-bottom: 12px;
+  color: #F6EDE7;
+  font-family: "baskerville-urw", serif;
+  font-weight: 400;
+  font-style: normal;
+  margin-top: 20px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+a#btn_wiki {
+    line-height: 25px;
+    margin-bottom: 17px;
+    font-size: 18px;
+    text-decoration: none;
+    color: black; 
+}
+
+
+@media (max-width: 1000px) {
+    .main-column {
+        width: auto;
+        margin-left: 30px;
+        margin-right: 30px;
+        font-size: 15px;
+    }
+
+    .header {
+        width: auto;
+    }
+
+    .career {
+        float: none;
+        width: 100%;
+        padding-left: 0;
+    }
+
+    h1{
+        font-size: 30px;
+    }
+
+    section:first-of-type p {
+        line-height: 20px;
+        margin-bottom: 17px;
+    }
+
+    a#btn_return {
+        font-size: 17px;
+      }
+
+    a#btn_wiki {
+        line-height: 25px;
+        margin-bottom: 17px;
+        font-size: 15px;
+    }
+    
+   
+}
